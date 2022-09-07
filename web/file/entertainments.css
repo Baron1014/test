@@ -1,0 +1,157 @@
+/* navigation above */
+
+.nav-container {
+    background: #062728;
+    /* opacity: 30%; */
+    height: 200px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:72px;
+}
+
+nav ul {
+    display:flex;
+
+}
+
+nav .logo {
+    font-family: 'IM FELL English';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.nav-items li {
+    list-style:none;
+    margin-right:100px;
+}
+
+.nav-items li a {
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    font-family: 'IM FELL Great Primer';
+    text-decoration: underline;
+    font-size:18px;
+}
+
+.heading h1 {
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* item-container */
+
+.item-container {
+    background-color: #96A8AF;
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.item-container div {
+    /* flex:0 calc(10%-5px); */
+    height:600px;
+    width:350px;
+    /* border:0px; */
+    box-sizing:border-box;
+    margin: 2px 50px;
+}
+
+.item-container .candle {
+    background-image: url("images/entertainments/candle.png");
+    background-repeat: no-repeat;
+    /* width:450px; */
+}
+
+.item-container .yoga {
+    background-image: url("images/entertainments/yoga.png");
+    background-repeat: no-repeat;
+    /* width:450px; */
+}
+
+.item-container .hotspring {
+    background-image: url("images/entertainments/hotspring.png");
+    background-repeat: no-repeat;
+    /* width:450px; */
+}
+
+.item-container .SPA {
+    background-image: url("images/entertainments/spa.png");
+    background-repeat: no-repeat;
+    /* width:450px; */
+}
+
+.item-container a {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration:none;
+    border: 1px solid #FFFFFF;
+    border-radius: 36px;
+    padding:15px;
+    display:inline-block;
+    transition:300ms;
+    position:relative;
+    top:235px;
+    left:35px;
+    /* display:flex; */
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+}
+
+.item-container a:hover {
+    /* transform: translateY(-8px); */
+    background-color: white;
+    color:black;
+    opacity:50%;
+}
+
+.item-container h2 {
+    position:relative;
+    top:320px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-container h3 {
+    position:relative;
+    top:305px;
+    right:1px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:10px;
+    text-align: center;
+}
+
+.item-container p {
+    position:relative;
+    top:270px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:15px;
+}
+
+.item-container img {
+    position:relative;
+    top:305px;
+    left:85px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
